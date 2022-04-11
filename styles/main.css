@@ -900,272 +900,6 @@ a:focus {
 }
 
 
-
-
-
-
-/* Adaptive */
-
-
-@media (min-width: 1151px) and (max-width: 1284px) {
-    .zero__body {
-        max-width: 753px;
-    }
-}
-
-@media screen and (max-width: 1151px) {
-    .bookmark__outer {
-        display: none;
-    }
-
-    .links {
-        margin-right: 0;
-    }
-
-    .header__line {
-        width: 100%;
-    }
-
-    .project__right {
-        margin-left: 70px;
-    }
-
-    .project__photos {
-        flex-wrap: wrap;
-    }
-}
-
-
-
-@media screen and (max-width: 1024px) {
-    .begin__block {
-        margin-left: 0;
-    }
-
-    .zero__body {
-        max-width: 100%;
-    }
-
-    .begin__gradient {
-        display: none;
-    }
-
-    .ask__item {
-        width: 400px;
-    }
-
-    .what__gradient {
-        display: none;
-    }
-
-    .what__header-right {
-        display: none;
-    }
-
-
-}
-
-
-@media screen and (max-width: 992px) {
-    .how__right {
-        padding-left: 20px;
-    }
-
-    .how__left {
-        padding-right: 20px;
-    }
-
-    .project__right {
-        margin-left: 20px;
-    }
-
-    .project__left {
-        padding: 20px;
-    }
-
-    .ask__item {
-        width: 320px;
-    }
-
-    .zero__gradient {
-        display: none;
-    }
-
-    .project__gradient {
-        display: none;
-    }
-
-
-
-}
-
-
-@media screen and (max-width: 768px) {
-    .ask {
-        padding-bottom: 20px;
-    }
-
-    .ask__body {
-        flex-direction: column;
-    }
-
-    .begin__num {
-        margin-right: 10px;
-    }
-
-    .project__right {
-        margin-left: 0;
-    }
-
-    .begin__item {
-        width: 100%;
-    }
-
-
-    .what__container {
-        padding: 10px;
-    }
-
-    .what__block {
-        gap: 20px;
-    }
-
-    .zero {
-        padding: 20px 0;
-    }
-
-
-    .how {
-        padding-bottom: 20px;
-    }
-
-    .what {
-        padding-bottom: 20px;
-    }
-
-    .know {
-        padding: 20px 0;
-    }
-
-    .project {
-        padding: 20px 0;
-    }
-
-    .startup__block {
-        margin-top: 20px;
-    }
-
-    .say {
-        padding: 20px 0;
-    }
-
-    .say__txt {
-        height: auto;
-    }
-
-    .how__left {
-        padding: 20px;
-    }
-
-    .startup__item {
-        height: 280px;
-    }
-
-    .project__body {
-        flex-direction: column-reverse;
-    }
-
-    .project__txt {
-        margin: 20px 0;
-    }
-
-    .what__header {
-        margin-bottom: 20px;
-    }
-
-    .begin {
-        padding: 20px 0;
-    }
-
-    .startup__item {
-        width: 295px;
-    }
-
-    .footer {
-        padding: 20px 0;
-    }
-
-}
-
-@media screen and (max-width: 576px) {
-
-    .what__block {
-        display: flex;
-        flex-direction: column;
-        grid-template-columns: none;
-    }
-
-    .how__body {
-        flex-direction: column;
-    }
-
-    .know__img1,
-    .know__img2,
-    .know__img3,
-    .know__img4 {
-        display: none;
-    }
-
-    .header__outer {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .header__sub {
-        margin: 8px 0;
-    }
-
-    .zero__buttons {
-        flex-wrap: wrap;
-    }
-
-    .zero__title {
-        font-size: 4rem;
-    }
-
-    .zero__sub {
-        font-size: 3.5rem;
-    }
-
-    .zero__business {
-        margin-top: 20px;
-    }
-
-    .title {
-        font-size: 3rem;
-    }
-
-    .startup__item {
-        height: 250px;
-        width: 100%;
-    }
-
-    .begin__btn,
-    .what__footer {
-        flex-wrap: wrap;
-    }
-
-    .ask__item {
-        width: 100%;
-    }
-
-    .what__footer-txt {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-}
-
-
 /* POPUP */
 .popup {
     width: 100%;
@@ -1267,5 +1001,298 @@ a:focus {
 #popup img {
     filter: blur(20px);
 }
-
 /* POPUP */
+
+
+/* Adaptive */
+
+
+@media (min-width: 1151px) and (max-width: 1284px) {
+    .zero__body {
+        max-width: 753px;
+    }
+}
+
+@media screen and (max-width: 1151px) {
+    .bookmark__outer {
+        display: none;
+    }
+
+    .links {
+        margin-right: 0;
+    }
+
+    .header__line {
+        width: 100%;
+    }
+
+    .project__right {
+        margin-left: 70px;
+    }
+
+    .project__photos {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .begin__block {
+        margin-left: 0;
+    }
+
+    .zero__body {
+        max-width: 100%;
+    }
+
+    .begin__gradient {
+        display: none;
+    }
+
+    .ask__item {
+        width: 400px;
+    }
+
+    .what__gradient {
+        display: none;
+    }
+
+    .what__header-right {
+        display: none;
+    }
+
+
+    .begin__num {
+        margin-right: 20px;
+    }
+
+    .begin__item {
+        width: 100%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 992px) {
+    .how__right {
+        padding-left: 20px;
+    }
+
+    .how__left {
+        padding-right: 20px;
+    }
+
+    .project__right {
+        margin-left: 20px;
+    }
+
+    .project__left {
+        padding: 20px;
+    }
+
+    .ask__item {
+        width: 320px;
+    }
+
+    .zero__gradient {
+        display: none;
+    }
+
+    .project__gradient {
+        display: none;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .ask {
+        padding-bottom: 20px;
+    }
+
+    .say__item {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .say__line {
+        width: 100%;
+    }
+
+    .ask__body {
+        flex-direction: column;
+    }
+
+    .project__right {
+        margin-left: 0;
+    }
+
+
+    .what__container {
+        padding: 10px;
+    }
+
+    .what__block {
+        gap: 20px;
+    }
+
+    .zero {
+        padding: 20px 0;
+    }
+
+
+    .how {
+        padding-bottom: 20px;
+    }
+
+    .what {
+        padding-bottom: 20px;
+    }
+
+    .know {
+        padding: 20px 0;
+    }
+
+    .project {
+        padding: 20px 0;
+    }
+
+    .startup__block {
+        margin-top: 20px;
+    }
+
+    .say {
+        padding: 20px 0;
+    }
+
+    .say__txt {
+        height: auto;
+    }
+
+    .how__left {
+        padding: 20px;
+    }
+
+    .startup__item {
+        height: 280px;
+    }
+
+    .project__body {
+        flex-direction: column-reverse;
+    }
+
+    .project__txt {
+        margin: 20px 0;
+    }
+
+    .what__header {
+        margin-bottom: 20px;
+    }
+
+    .begin {
+        padding: 20px 0;
+    }
+
+    .startup__item {
+        width: 265px;
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+
+    .btn__empty {
+        padding: 12px 20px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .what__block {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: none;
+    }
+
+    .how__body {
+        flex-direction: column;
+    }
+
+    .know__img1,
+    .know__img2,
+    .know__img3,
+    .know__img4 {
+        display: none;
+    }
+
+    .header__outer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header__sub {
+        margin: 8px 0;
+    }
+
+    .zero__buttons {
+        flex-wrap: wrap;
+    }
+
+    .zero__title {
+        font-size: 4rem;
+    }
+
+    .zero__sub {
+        font-size: 3.5rem;
+    }
+
+    .zero__business {
+        margin-top: 20px;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .startup__item {
+        height: auto;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .begin__btn,
+    .what__footer {
+        flex-wrap: wrap;
+    }
+
+    .ask__item {
+        width: 100%;
+    }
+
+    .what__footer-txt {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .popup__body {
+        min-height: 100%;
+        border-radius: 0;
+        padding: 20px 20px 40px;
+    }
+
+    .popup__title {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .popup__item input,
+    .popup .popup__info {
+        width: 100%;
+    }
+
+}
